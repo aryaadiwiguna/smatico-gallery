@@ -123,7 +123,7 @@ nav ul li:hover::after {
 /* hero */
 .hero {
   height: 100vh;
-  background-image: url(img/hero.JPG);
+  background-image: url(https://raw.githubusercontent.com/aryaadiwiguna/smatico-gallery/main/img/hero.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
