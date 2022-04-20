@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Smatico</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- navbar -->
+      <nav>
+        <div class="logo">
+          <h4>Smatico</h4>
+        </div>
+        <ul>
+          <li>
+            <a class="home" href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+        </ul>
+
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <!-- End Of Navbar -->
+
+      <!-- Hero -->
+      <div class="hero"></div>
+      <!-- End Of Hero -->
+
+      <!-- About -->
+      <div class="about">
+        <h2 id="#about">About Us</h2>
+        <div class="content-about">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, pariatur adipisci quidem totam in vel dolores amet sint maxime iste, libero fugit architecto asperiores aliquid corrupti minus cumque blanditiis, esse explicabo
+            nesciunt enim aperiam! Iusto ea commodi labore cum cumque temporibus, ipsum hic tempore voluptatibus veritatis fuga, earum maiores voluptatum.
+          </p>
+          <img data-aos="flip-left" src="img/hero.JPG" alt="" width="300" height="200" />
+        </div>
+      </div>
+      <!-- End Of About -->
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <h2 id="#gallery">Our Gallery</h2>
+        <div class="thumbnail">
+          <img data-aos="fade-right" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-right" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-right" src="img/hero.JPG" alt="" width="300" height="200" />
+
+          <img data-aos="fade-left" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-left" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-left" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-up" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-up" src="img/hero.JPG" alt="" width="300" height="200" />
+          <img data-aos="fade-up" src="img/hero.JPG" alt="" width="300" height="200" />
+        </div>
+      </div>
+      <!-- End Of Gallery -->
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h1>SMATICO</h1>
+        <p>website gallery sederhana yang dibuat sebagai latihan membuat website menggunakan flexbox</p>
+
+        <ul class="socials">
+          <li>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bi bi-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>Dibuat dengan <i class="bi bi-heart-fill" style="color: red"></i>Oleh Aryadiwiguna</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 400,
+        duration: 600,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
