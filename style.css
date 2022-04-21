@@ -297,7 +297,7 @@ footer {
 }
 
 /* responsive */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .hero {
     height: 50vh;
     width: 100%;
